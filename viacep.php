@@ -1,7 +1,7 @@
 <?php
 echo "<form action = 'index.php' method = 'GET'>";
-echo "<input type = 'text' name = 'cep'/>";
-echo "<button type = 'submit'> enviar </button> <br>";
+echo "<input type = 'text' name = 'cep' placeholder = 'Informe o CEP'/>";
+echo "<button type = 'submit'> Buscar </button> <br>";
 echo "</form>";
 
 @$cep = $_GET['cep'];
