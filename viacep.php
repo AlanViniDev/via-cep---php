@@ -23,23 +23,23 @@ curl_setopt($iniciar,CURLOPT_SSL_VERIFYPEER,false);
 
 /* lista os dados de acordo com id */
 
-echo "CEP: " . $acessa->cep;
+echo "CEP: " . @$acessa->cep;
 echo "<br>";
-echo "Logradouro: " . $acessa->logradouro;
+echo "Logradouro: " . @$acessa->logradouro;
 echo "<br>";
-echo "Complemento: " . $acessa->complemento;
+echo "Complemento: " . @$acessa->complemento;
 echo "<br>";
-echo "Bairro: " . $acessa->bairro;
+echo "Bairro: " . @$acessa->bairro;
 echo "<br>";
-echo "localidade: " . $acessa->localidade;
+echo "localidade: " . @$acessa->localidade;
 echo "<br>";
-echo "UF: " . $acessa->uf;
+echo "UF: " . @$acessa->uf;
 echo "<br>";
-echo "IBGE " . $acessa->ibge;
+echo "IBGE " . @$acessa->ibge;
 echo "<br>";
-echo "GIA: " . $acessa->gia;
+echo "GIA: " . @$acessa->gia;
 echo "<br>";
-echo "DDD: " . $acessa->ddd;
+echo "DDD: " . @$acessa->ddd;
 echo "<br>";
-echo "Siafi: " . $acessa->siafi;
+echo "Siafi: " . @$acessa->siafi;
 
